@@ -31,7 +31,8 @@ class ApiVideoController extends Controller
      }
 
      function RelatedVideo(Request $request){
-        $data=VideoTags::with("video.author")->whereIn("topic_id",$request->topic_id)->distinct()->take(10)->get();
+        $data=VideoTags::with("video.author")->whereIn("topic_id",$request->topic_id)->
+        groupBy("video_tags.video_id")->take(10)->get();
         foreach($data as $row){
             $row->video->date=date('d/M/Y',strtotime($row->video->created_at));  
         }
