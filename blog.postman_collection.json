@@ -1,0 +1,1248 @@
+{
+	"id": "16a12419-b0a7-23ea-5e67-f1e67103c77b",
+	"name": "blog",
+	"description": "",
+	"order": [
+		"959f25e6-df4e-85a2-8bbe-eb8f566f3fc7",
+		"2f0d1e0f-be73-19ca-8b8b-ba92b9816c16",
+		"f9c02b5f-f6ba-df72-a906-22db4f5fc252",
+		"3c1cde35-7ef5-522b-2a46-72f5e0565b76",
+		"abbfdcb8-b5ce-41d6-8b1b-e1322c85d191",
+		"b3a2bb56-e1c2-6d0d-5bda-f99c17013c41",
+		"66d497a7-2d39-04bf-5a6b-d65953523e46",
+		"3b724fa4-869a-51d3-41ae-0f97cfa283cd",
+		"4b90f9f0-eaf4-b667-5ef0-ca0b68412d01",
+		"d34a177f-f657-bef7-3c60-6d925214b9db"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1618588539097,
+	"owner": "10659047",
+	"public": false,
+	"requests": [
+		{
+			"id": "2f0d1e0f-be73-19ca-8b8b-ba92b9816c16",
+			"headers": "",
+			"headerData": [],
+			"url": "http://192.168.100.8/api/video",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "16a12419-b0a7-23ea-5e67-f1e67103c77b",
+			"data": null,
+			"dataMode": "params",
+			"name": "API untuk melihat daftar video",
+			"description": "-keterangan :\n  \n  -page adalah parameter untuk mengakses alamat\n  -youtube_key adalah key youtube yang nantinya akan digunakan oleh library flutter youtube_player",
+			"descriptionFormat": "html",
+			"time": 1618588691190,
+			"version": 2,
+			"responses": [
+				{
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK",
+						"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+					},
+					"time": 554,
+					"headers": [
+						{
+							"name": "cache-control",
+							"key": "cache-control",
+							"value": "no-cache, private",
+							"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+						},
+						{
+							"name": "connection",
+							"key": "connection",
+							"value": "close",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Fri, 16 Apr 2021 15:55:57 +0000, Fri, 16 Apr 2021 15:55:57 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "host",
+							"key": "host",
+							"value": "192.168.100.8",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "PHP/7.3.0",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						},
+						{
+							"name": "x-ratelimit-limit",
+							"key": "x-ratelimit-limit",
+							"value": "60",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-ratelimit-remaining",
+							"key": "x-ratelimit-remaining",
+							"value": "59",
+							"description": "Custom header"
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "{\"success\":true,\"data\":{\"current_page\":1,\"data\":[{\"id\":1,\"title\":\"konser ara batur di Abbey,Inggris\",\"youtube_key\":\"vUK_ou_mTQE\",\"description\":\"Konsert SIgur ROs ini sangat merdu sekali hanjerr\",\"created_at\":\"2021-02-13 15:05:20\",\"user_id\":3,\"date\":\"13\\/Feb\\/2021\",\"author\":{\"id\":3,\"name\":\"Johnny Joestar Rangga\",\"avatar\":\"\\/photos\\/3\\/216545.jpg\"}},{\"id\":2,\"title\":\"Sejarah Perang dan Kanibalisme pada Liberia\",\"youtube_key\":\"ZRuSS0iiFyo\",\"description\":\"Vice.com menjelaskan tentang bagaimana perang dan kanibalisme dimulai di Liberia serta seks bebas dan narkoba\",\"created_at\":\"2021-02-16 14:27:41\",\"user_id\":3,\"date\":\"16\\/Feb\\/2021\",\"author\":{\"id\":3,\"name\":\"Johnny Joestar Rangga\",\"avatar\":\"\\/photos\\/3\\/216545.jpg\"}},{\"id\":3,\"title\":\"30 Tahun Konflik di Somalia\",\"youtube_key\":\"0FY96qD_W1k\",\"description\":\"Berikut ini wawancara dan liputan tentang Somalia dan juga serta penjelasan tentang sejarah konflik Bersenjata Somalia yang dijelaskan oleh BBC News\",\"created_at\":\"2021-02-18 14:01:13\",\"user_id\":3,\"date\":\"18\\/Feb\\/2021\",\"author\":{\"id\":3,\"name\":\"Johnny Joestar Rangga\",\"avatar\":\"\\/photos\\/3\\/216545.jpg\"}},{\"id\":4,\"title\":\"Kondisi Jerman setelah kalah di Dunia Perang\",\"youtube_key\":\"x8XG-nbM3BE\",\"description\":\"Berikut ini adalah keadaan Jerman setelah kekalahan pada Perang Dunia ke 2,Setelah Hitler bunuh diri dan juga para petinggi Nazi lainnya juga beberapa ada yang bunuh diri untuk menghindari penangkapan dan eksekusi mati oleh tentara Sekutu,ini adalah video yang diambil dari akun Youtube \\\"The Best Film Archives\\\"\",\"created_at\":\"2021-02-18 14:05:22\",\"user_id\":3,\"date\":\"18\\/Feb\\/2021\",\"author\":{\"id\":3,\"name\":\"Johnny Joestar Rangga\",\"avatar\":\"\\/photos\\/3\\/216545.jpg\"}},{\"id\":5,\"title\":\"Mengunjungi tempat dengan radiasi tertinggi di Kazakhstan\",\"youtube_key\":\"wrn_ekMx6cw\",\"description\":\"Berikut ini adalah laporan dari VICE tentang tempat beradiasi tinggi di daerah Kazakhstan\",\"created_at\":\"2021-02-18 14:15:16\",\"user_id\":3,\"date\":\"18\\/Feb\\/2021\",\"author\":{\"id\":3,\"name\":\"Johnny Joestar Rangga\",\"avatar\":\"\\/photos\\/3\\/216545.jpg\"}}],\"first_page_url\":\"http:\\/\\/192.168.100.8\\/api\\/video?page=1\",\"from\":1,\"last_page\":1,\"last_page_url\":\"http:\\/\\/192.168.100.8\\/api\\/video?page=1\",\"next_page_url\":null,\"path\":\"http:\\/\\/192.168.100.8\\/api\\/video\",\"per_page\":10,\"prev_page_url\":null,\"to\":5,\"total\":5}}",
+					"language": "json",
+					"rawDataType": "text",
+					"previewType": "text",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"name": "contoh API daftar video",
+					"id": "d652e589-8b81-5056-7b10-73f06c014a4e",
+					"request": {
+						"url": "http://192.168.100.8/api/video",
+						"pathVariables": {},
+						"pathVariableData": [],
+						"queryParams": [],
+						"headerData": [],
+						"headers": "",
+						"data": null,
+						"method": "GET",
+						"dataMode": "params"
+					}
+				}
+			],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "3b724fa4-869a-51d3-41ae-0f97cfa283cd",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://192.168.100.8/api/article/related",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "16a12419-b0a7-23ea-5e67-f1e67103c77b",
+			"data": [],
+			"dataMode": "raw",
+			"name": "API untuk pencarian artikel berdasarkan topic",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1618589673428,
+			"version": 2,
+			"responses": [
+				{
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK"
+					},
+					"time": 530,
+					"headers": [
+						{
+							"name": "cache-control",
+							"key": "cache-control",
+							"value": "no-cache, private",
+							"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+						},
+						{
+							"name": "connection",
+							"key": "connection",
+							"value": "close",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Fri, 16 Apr 2021 16:14:02 +0000, Fri, 16 Apr 2021 16:14:02 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "host",
+							"key": "host",
+							"value": "192.168.100.8",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "PHP/7.3.0",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						},
+						{
+							"name": "x-ratelimit-limit",
+							"key": "x-ratelimit-limit",
+							"value": "60",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-ratelimit-remaining",
+							"key": "x-ratelimit-remaining",
+							"value": "59",
+							"description": "Custom header"
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "{\"success\":true,\"data\":[{\"id\":17,\"article_id\":4,\"topic_id\":7,\"article\":{\"id\":4,\"title\":\"Tiga Penyebab Utama Keruntuhan Uni Soviet\",\"short_description\":\"Penyebab penyebab keruntuhan Uni Soviet setelah kemenangan mereka di Perang Dunia ke 2 atas Nazi German\",\"image\":\"\\/photos\\/3\\/unisoviet.jpg\",\"user_id\":3,\"created_at\":\"2021-02-14 08:45:56\",\"date\":\"14\\/Feb\\/2021\",\"author\":{\"id\":3,\"name\":\"Johnny Joestar Rangga\",\"avatar\":\"\\/photos\\/3\\/216545.jpg\"}}},{\"id\":19,\"article_id\":5,\"topic_id\":6,\"article\":{\"id\":5,\"title\":\"Sejarah Pendekatan Detente pada Politik dan Perang\",\"short_description\":\"Periode detente (Prancis : 'relaksasi') dalam sejarah Perang Dingin, yang berarti kedua negara adidaya berupaya meredakan ketegangan di antara mereka.\",\"image\":\"\\/photos\\/3\\/detente.jpeg\",\"user_id\":3,\"created_at\":\"2021-02-14 08:59:09\",\"date\":\"14\\/Feb\\/2021\",\"author\":{\"id\":3,\"name\":\"Johnny Joestar Rangga\",\"avatar\":\"\\/photos\\/3\\/216545.jpg\"}}},{\"id\":24,\"article_id\":2,\"topic_id\":6,\"article\":{\"id\":2,\"title\":\"Pengadilan Nurenberg,Eksekusi Mati bagi Para Petinggi Nazi\",\"short_description\":\"Para Petinggi Nazi akhirnya diadili di pengadilan Nurenberg atas Kejahatan Perang mereka\",\"image\":\"\\/photos\\/3\\/nurrenberg.jpg\",\"user_id\":3,\"created_at\":\"2021-02-15 16:09:56\",\"date\":\"15\\/Feb\\/2021\",\"author\":{\"id\":3,\"name\":\"Johnny Joestar Rangga\",\"avatar\":\"\\/photos\\/3\\/216545.jpg\"}}},{\"id\":32,\"article_id\":8,\"topic_id\":6,\"article\":{\"id\":8,\"title\":\"Penangkapan dan Baku Tembak di Meksiko\",\"short_description\":\"Detik detik penangkapan dan baku tembak polisi pemerintahan dengan kartel narkoba meksiko\",\"image\":\"\\/photos\\/3\\/kartel.jpg\",\"user_id\":3,\"created_at\":\"2021-02-15 22:02:02\",\"date\":\"15\\/Feb\\/2021\",\"author\":{\"id\":3,\"name\":\"Johnny Joestar Rangga\",\"avatar\":\"\\/photos\\/3\\/216545.jpg\"}}}]}",
+					"language": "json",
+					"rawDataType": "text",
+					"previewType": "text",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"name": "contoh API untuk pencarian artikel terkait berdasarkan topic",
+					"id": "742d229c-378b-98f5-d932-65462049f513",
+					"isSample": true,
+					"scrollToResult": false,
+					"runTests": false,
+					"request": {
+						"url": "http://192.168.100.8/api/article/related",
+						"pathVariables": {},
+						"pathVariableData": [],
+						"queryParams": [],
+						"headerData": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"enabled": true,
+								"description": ""
+							}
+						],
+						"headers": "Content-Type: application/json\n",
+						"data": "{\n\t\"topic_id\":[\n\t\t\"6\",\n\t\t\"7\"\n\t]\n}",
+						"method": "POST",
+						"dataMode": "raw"
+					}
+				}
+			],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"topic_id\":[\n\t\t\"6\",\n\t\t\"7\"\n\t]\n}"
+		},
+		{
+			"id": "3c1cde35-7ef5-522b-2a46-72f5e0565b76",
+			"headers": "",
+			"headerData": [],
+			"url": "http://192.168.100.8/api/video/2",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "16a12419-b0a7-23ea-5e67-f1e67103c77b",
+			"data": null,
+			"dataMode": "params",
+			"name": "API untuk melihat detail video",
+			"description": "http://192.168.100.8/api/video/{id_video}",
+			"descriptionFormat": "html",
+			"time": 1618588960090,
+			"version": 2,
+			"responses": [
+				{
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK",
+						"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+					},
+					"time": 484,
+					"headers": [
+						{
+							"name": "cache-control",
+							"key": "cache-control",
+							"value": "no-cache, private",
+							"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+						},
+						{
+							"name": "connection",
+							"key": "connection",
+							"value": "close",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Fri, 16 Apr 2021 16:01:49 +0000, Fri, 16 Apr 2021 16:01:49 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "host",
+							"key": "host",
+							"value": "192.168.100.8",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "PHP/7.3.0",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						},
+						{
+							"name": "x-ratelimit-limit",
+							"key": "x-ratelimit-limit",
+							"value": "60",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-ratelimit-remaining",
+							"key": "x-ratelimit-remaining",
+							"value": "58",
+							"description": "Custom header"
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "{\"status\":true,\"data\":{\"id\":2,\"title\":\"Sejarah Perang dan Kanibalisme pada Liberia\",\"description\":\"Vice.com menjelaskan tentang bagaimana perang dan kanibalisme dimulai di Liberia serta seks bebas dan narkoba\",\"user_id\":3,\"youtube_key\":\"ZRuSS0iiFyo\",\"created_at\":\"2021-02-16 14:27:41\",\"updated_at\":\"2021-02-16 14:27:41\",\"date\":\"16\\/Feb\\/2021\",\"author\":{\"id\":3,\"name\":\"Johnny Joestar Rangga\",\"avatar\":\"\\/photos\\/3\\/216545.jpg\"},\"tags\":[{\"id\":5,\"video_id\":2,\"topic_id\":2,\"topics\":{\"id\":2,\"name\":\"History\",\"cover\":\"\\/photos\\/3\\/history.jpg\",\"company_id\":0}},{\"id\":6,\"video_id\":2,\"topic_id\":6,\"topics\":{\"id\":6,\"name\":\"Politic\",\"cover\":\"\\/photos\\/3\\/politic.jpg\",\"company_id\":3}},{\"id\":7,\"video_id\":2,\"topic_id\":7,\"topics\":{\"id\":7,\"name\":\"Geography\",\"cover\":\"\\/photos\\/3\\/geography.jpg\",\"company_id\":3}}]}}",
+					"language": "json",
+					"rawDataType": "text",
+					"previewType": "text",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"name": "contoh API detail video",
+					"id": "fa06332b-d2d6-3fe4-c2ac-692900b3407a",
+					"request": {
+						"url": "http://192.168.100.8/api/video/2",
+						"pathVariables": {},
+						"pathVariableData": [],
+						"queryParams": [],
+						"headerData": [],
+						"headers": "",
+						"data": null,
+						"method": "GET",
+						"dataMode": "params"
+					}
+				}
+			],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "4b90f9f0-eaf4-b667-5ef0-ca0b68412d01",
+			"headers": "",
+			"headerData": [],
+			"url": "http://192.168.100.8/api/video/tags/6?page=1",
+			"queryParams": [
+				{
+					"key": "page",
+					"value": "1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "16a12419-b0a7-23ea-5e67-f1e67103c77b",
+			"data": null,
+			"dataMode": "params",
+			"name": "API filter daftar video berdasarkan tags",
+			"description": "http://192.168.100.8/api/video/tags/{topic_id}?page=1\n\nketerangan \n\n - {{topic id}} diisi oleh id dari daftar topic\n - page diisi oleh halaman\n - contoh request:\n  http://192.168.100.8/api/video/tags/6?page=1",
+			"descriptionFormat": "html",
+			"time": 1618663088004,
+			"version": 2,
+			"responses": [
+				{
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK",
+						"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+					},
+					"time": 513,
+					"headers": [
+						{
+							"name": "cache-control",
+							"key": "cache-control",
+							"value": "no-cache, private",
+							"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+						},
+						{
+							"name": "connection",
+							"key": "connection",
+							"value": "close",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Sat, 17 Apr 2021 12:35:51 +0000, Sat, 17 Apr 2021 12:35:51 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "host",
+							"key": "host",
+							"value": "192.168.100.8",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "PHP/7.3.0",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						},
+						{
+							"name": "x-ratelimit-limit",
+							"key": "x-ratelimit-limit",
+							"value": "60",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-ratelimit-remaining",
+							"key": "x-ratelimit-remaining",
+							"value": "59",
+							"description": "Custom header"
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "{\"success\":true,\"data\":{\"current_page\":1,\"data\":[{\"id\":6,\"video_id\":2,\"topic_id\":6,\"video\":{\"id\":2,\"title\":\"Sejarah Perang dan Kanibalisme pada Liberia\",\"description\":\"Vice.com menjelaskan tentang bagaimana perang dan kanibalisme dimulai di Liberia serta seks bebas dan narkoba\",\"youtube_key\":\"ZRuSS0iiFyo\",\"user_id\":3,\"created_at\":\"2021-02-16 14:27:41\",\"author\":{\"id\":3,\"name\":\"Johnny Joestar Rangga\",\"avatar\":\"\\/photos\\/3\\/216545.jpg\"}}},{\"id\":10,\"video_id\":3,\"topic_id\":6,\"video\":{\"id\":3,\"title\":\"30 Tahun Konflik di Somalia\",\"description\":\"Berikut ini wawancara dan liputan tentang Somalia dan juga serta penjelasan tentang sejarah konflik Bersenjata Somalia yang dijelaskan oleh BBC News\",\"youtube_key\":\"0FY96qD_W1k\",\"user_id\":3,\"created_at\":\"2021-02-18 14:01:13\",\"author\":{\"id\":3,\"name\":\"Johnny Joestar Rangga\",\"avatar\":\"\\/photos\\/3\\/216545.jpg\"}}},{\"id\":12,\"video_id\":4,\"topic_id\":6,\"video\":{\"id\":4,\"title\":\"Kondisi Jerman setelah kalah di Dunia Perang\",\"description\":\"Berikut ini adalah keadaan Jerman setelah kekalahan pada Perang Dunia ke 2,Setelah Hitler bunuh diri dan juga para petinggi Nazi lainnya juga beberapa ada yang bunuh diri untuk menghindari penangkapan dan eksekusi mati oleh tentara Sekutu,ini adalah video yang diambil dari akun Youtube \\\"The Best Film Archives\\\"\",\"youtube_key\":\"x8XG-nbM3BE\",\"user_id\":3,\"created_at\":\"2021-02-18 14:05:22\",\"author\":{\"id\":3,\"name\":\"Johnny Joestar Rangga\",\"avatar\":\"\\/photos\\/3\\/216545.jpg\"}}}],\"first_page_url\":\"http:\\/\\/192.168.100.8\\/api\\/video\\/tags\\/6?page=1\",\"from\":1,\"last_page\":1,\"last_page_url\":\"http:\\/\\/192.168.100.8\\/api\\/video\\/tags\\/6?page=1\",\"next_page_url\":null,\"path\":\"http:\\/\\/192.168.100.8\\/api\\/video\\/tags\\/6\",\"per_page\":10,\"prev_page_url\":null,\"to\":3,\"total\":3}}",
+					"language": "json",
+					"rawDataType": "text",
+					"previewType": "text",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"name": "contoh API filter daftar video berdasarkan tags",
+					"id": "47902827-8246-de2e-4660-5f18fef0c7ad",
+					"request": {
+						"url": "http://192.168.100.8/api/video/tags/6?page=1",
+						"pathVariables": {},
+						"pathVariableData": [],
+						"queryParams": [
+							{
+								"key": "page",
+								"value": "1",
+								"equals": true,
+								"description": "",
+								"enabled": true
+							}
+						],
+						"headerData": [],
+						"headers": "",
+						"data": null,
+						"method": "GET",
+						"dataMode": "params"
+					}
+				}
+			],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "66d497a7-2d39-04bf-5a6b-d65953523e46",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://192.168.100.8/api/video/related",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "16a12419-b0a7-23ea-5e67-f1e67103c77b",
+			"data": [],
+			"dataMode": "raw",
+			"name": "API untuk melakukan pencarian video terkait",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1618589601152,
+			"version": 2,
+			"responses": [
+				{
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK",
+						"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+					},
+					"time": 555,
+					"headers": [
+						{
+							"name": "cache-control",
+							"key": "cache-control",
+							"value": "no-cache, private",
+							"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+						},
+						{
+							"name": "connection",
+							"key": "connection",
+							"value": "close",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Fri, 16 Apr 2021 16:12:43 +0000, Fri, 16 Apr 2021 16:12:43 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "host",
+							"key": "host",
+							"value": "192.168.100.8",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "PHP/7.3.0",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						},
+						{
+							"name": "x-ratelimit-limit",
+							"key": "x-ratelimit-limit",
+							"value": "60",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-ratelimit-remaining",
+							"key": "x-ratelimit-remaining",
+							"value": "59",
+							"description": "Custom header"
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "{\"success\":true,\"data\":[{\"id\":6,\"video_id\":2,\"topic_id\":6,\"video\":{\"id\":2,\"title\":\"Sejarah Perang dan Kanibalisme pada Liberia\",\"description\":\"Vice.com menjelaskan tentang bagaimana perang dan kanibalisme dimulai di Liberia serta seks bebas dan narkoba\",\"youtube_key\":\"ZRuSS0iiFyo\",\"user_id\":3,\"created_at\":\"2021-02-16 14:27:41\",\"date\":\"01\\/Jan\\/1970\",\"author\":{\"id\":3,\"name\":\"Johnny Joestar Rangga\",\"avatar\":\"\\/photos\\/3\\/216545.jpg\"}}},{\"id\":7,\"video_id\":2,\"topic_id\":7,\"video\":{\"id\":2,\"title\":\"Sejarah Perang dan Kanibalisme pada Liberia\",\"description\":\"Vice.com menjelaskan tentang bagaimana perang dan kanibalisme dimulai di Liberia serta seks bebas dan narkoba\",\"youtube_key\":\"ZRuSS0iiFyo\",\"user_id\":3,\"created_at\":\"2021-02-16 14:27:41\",\"date\":\"01\\/Jan\\/1970\",\"author\":{\"id\":3,\"name\":\"Johnny Joestar Rangga\",\"avatar\":\"\\/photos\\/3\\/216545.jpg\"}}},{\"id\":10,\"video_id\":3,\"topic_id\":6,\"video\":{\"id\":3,\"title\":\"30 Tahun Konflik di Somalia\",\"description\":\"Berikut ini wawancara dan liputan tentang Somalia dan juga serta penjelasan tentang sejarah konflik Bersenjata Somalia yang dijelaskan oleh BBC News\",\"youtube_key\":\"0FY96qD_W1k\",\"user_id\":3,\"created_at\":\"2021-02-18 14:01:13\",\"date\":\"01\\/Jan\\/1970\",\"author\":{\"id\":3,\"name\":\"Johnny Joestar Rangga\",\"avatar\":\"\\/photos\\/3\\/216545.jpg\"}}},{\"id\":12,\"video_id\":4,\"topic_id\":6,\"video\":{\"id\":4,\"title\":\"Kondisi Jerman setelah kalah di Dunia Perang\",\"description\":\"Berikut ini adalah keadaan Jerman setelah kekalahan pada Perang Dunia ke 2,Setelah Hitler bunuh diri dan juga para petinggi Nazi lainnya juga beberapa ada yang bunuh diri untuk menghindari penangkapan dan eksekusi mati oleh tentara Sekutu,ini adalah video yang diambil dari akun Youtube \\\"The Best Film Archives\\\"\",\"youtube_key\":\"x8XG-nbM3BE\",\"user_id\":3,\"created_at\":\"2021-02-18 14:05:22\",\"date\":\"01\\/Jan\\/1970\",\"author\":{\"id\":3,\"name\":\"Johnny Joestar Rangga\",\"avatar\":\"\\/photos\\/3\\/216545.jpg\"}}}]}",
+					"language": "json",
+					"rawDataType": "text",
+					"previewType": "text",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"name": "contoh API pencarian video terkait berdasarkan topic",
+					"id": "24b5ae3c-8fb1-820f-43e9-c04709deff68",
+					"request": {
+						"url": "http://192.168.100.8/api/video/related",
+						"pathVariables": {},
+						"pathVariableData": [],
+						"queryParams": [],
+						"headerData": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": "",
+								"enabled": true
+							}
+						],
+						"headers": "Content-Type: application/json\n",
+						"data": "{\n\t\"topic_id\":[\n\t\t\"6\",\n\t\t\"7\"\n\t]\n}",
+						"method": "POST",
+						"dataMode": "raw"
+					}
+				}
+			],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"topic_id\":[\n\t\t\"6\",\n\t\t\"7\"\n\t]\n}"
+		},
+		{
+			"id": "959f25e6-df4e-85a2-8bbe-eb8f566f3fc7",
+			"headers": "Content-Type: application/x-www-form-urlencoded\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2JldGEubG9jYWxpby5pZC9wdWJsaWMvYXBpL2xvZ2luIiwiaWF0IjoxNjExNjM2NTEwLCJuYmYiOjE2MTE2MzY1MTAsImp0aSI6Ilh0djN2NnBCUk84QldPY24iLCJzdWIiOjg2NTMsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.eZNE3OZ0-amjOnHh57U3ZnKnVbAu116IMcclDFLUjGI\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2JldGEubG9jYWxpby5pZC9wdWJsaWMvYXBpL2xvZ2luIiwiaWF0IjoxNjExNjM2NTEwLCJuYmYiOjE2MTE2MzY1MTAsImp0aSI6Ilh0djN2NnBCUk84QldPY24iLCJzdWIiOjg2NTMsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.eZNE3OZ0-amjOnHh57U3ZnKnVbAu116IMcclDFLUjGI",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://192.168.100.8/api/article?page=1",
+			"queryParams": [
+				{
+					"key": "page",
+					"value": "1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "16a12419-b0a7-23ea-5e67-f1e67103c77b",
+			"data": [
+				{
+					"key": "restaurant_id",
+					"value": "3",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "API untuk melihat semua artikel",
+			"description": "keterangan :\n\npage adalah parameter untuk request halaman",
+			"descriptionFormat": "html",
+			"time": 1618588542989,
+			"version": 2,
+			"responses": [
+				{
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK",
+						"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+					},
+					"time": 3467,
+					"headers": [
+						{
+							"name": "cache-control",
+							"key": "cache-control",
+							"value": "no-cache, private",
+							"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+						},
+						{
+							"name": "connection",
+							"key": "connection",
+							"value": "close",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Fri, 16 Apr 2021 15:54:15 +0000, Fri, 16 Apr 2021 15:54:15 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "host",
+							"key": "host",
+							"value": "192.168.100.8",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "PHP/7.3.0",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						},
+						{
+							"name": "x-ratelimit-limit",
+							"key": "x-ratelimit-limit",
+							"value": "60",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-ratelimit-remaining",
+							"key": "x-ratelimit-remaining",
+							"value": "59",
+							"description": "Custom header"
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "{\"success\":true,\"data\":{\"current_page\":1,\"data\":[{\"id\":2,\"title\":\"Pengadilan Nurenberg,Eksekusi Mati bagi Para Petinggi Nazi\",\"short_description\":\"Para Petinggi Nazi akhirnya diadili di pengadilan Nurenberg atas Kejahatan Perang mereka\",\"image\":\"\\/photos\\/3\\/nurrenberg.jpg\",\"created_at\":\"2021-02-15 16:09:56\",\"user_id\":3,\"author\":{\"id\":3,\"name\":\"Johnny Joestar Rangga\",\"avatar\":\"\\/photos\\/3\\/216545.jpg\"}},{\"id\":3,\"title\":\"Asal Usul tendangan pinalti Panenka\",\"short_description\":\"Sejarah ekskusi pinalti gaya panenka yang ditemukan oleh Pemain Bola asal Cekoslowakia Antonin Panenka\",\"image\":\"\\/photos\\/3\\/panenka.jpg\",\"created_at\":\"2021-02-15 17:31:13\",\"user_id\":3,\"author\":{\"id\":3,\"name\":\"Johnny Joestar Rangga\",\"avatar\":\"\\/photos\\/3\\/216545.jpg\"}},{\"id\":4,\"title\":\"Tiga Penyebab Utama Keruntuhan Uni Soviet\",\"short_description\":\"Penyebab penyebab keruntuhan Uni Soviet setelah kemenangan mereka di Perang Dunia ke 2 atas Nazi German\",\"image\":\"\\/photos\\/3\\/unisoviet.jpg\",\"created_at\":\"2021-02-14 08:45:56\",\"user_id\":3,\"author\":{\"id\":3,\"name\":\"Johnny Joestar Rangga\",\"avatar\":\"\\/photos\\/3\\/216545.jpg\"}},{\"id\":5,\"title\":\"Sejarah Pendekatan Detente pada Politik dan Perang\",\"short_description\":\"Periode detente (Prancis : 'relaksasi') dalam sejarah Perang Dingin, yang berarti kedua negara adidaya berupaya meredakan ketegangan di antara mereka.\",\"image\":\"\\/photos\\/3\\/detente.jpeg\",\"created_at\":\"2021-02-14 08:59:09\",\"user_id\":3,\"author\":{\"id\":3,\"name\":\"Johnny Joestar Rangga\",\"avatar\":\"\\/photos\\/3\\/216545.jpg\"}},{\"id\":6,\"title\":\"Pengalaman Saya Belajar Golang\",\"short_description\":\"Pengalaman saya ketika belajar Golang di tempat kerja baru\",\"image\":\"\\/photos\\/3\\/golang.png\",\"created_at\":\"2021-02-14 09:07:24\",\"user_id\":3,\"author\":{\"id\":3,\"name\":\"Johnny Joestar Rangga\",\"avatar\":\"\\/photos\\/3\\/216545.jpg\"}},{\"id\":7,\"title\":\"Belajar PHP Dasar\",\"short_description\":\"Pengenalan PHP dan Belajar PHP untuk para pemula\",\"image\":\"\\/photos\\/3\\/php.png\",\"created_at\":\"2021-02-14 09:38:06\",\"user_id\":3,\"author\":{\"id\":3,\"name\":\"Johnny Joestar Rangga\",\"avatar\":\"\\/photos\\/3\\/216545.jpg\"}},{\"id\":8,\"title\":\"Penangkapan dan Baku Tembak di Meksiko\",\"short_description\":\"Detik detik penangkapan dan baku tembak polisi pemerintahan dengan kartel narkoba meksiko\",\"image\":\"\\/photos\\/3\\/kartel.jpg\",\"created_at\":\"2021-02-15 22:02:02\",\"user_id\":3,\"author\":{\"id\":3,\"name\":\"Johnny Joestar Rangga\",\"avatar\":\"\\/photos\\/3\\/216545.jpg\"}},{\"id\":9,\"title\":\"Menjadi Kanojo Pencinta Anime alias Pacaran dengan Wibu\",\"short_description\":\"Beginilah rasanya pacaran dengan wibu, sementara saya baru menyadarinya ketika sang pacar sudah hampir membayar lunas dakimakura bergambar Tachibana Kanade.\",\"image\":\"\\/photos\\/3\\/pacaran-dengan-wibu-mojok.jpg\",\"created_at\":\"2021-04-11 06:52:17\",\"user_id\":3,\"author\":{\"id\":3,\"name\":\"Johnny Joestar Rangga\",\"avatar\":\"\\/photos\\/3\\/216545.jpg\"}},{\"id\":10,\"title\":\"Eren dkk. Membuktikan bahwa \\u2018Attack on Titan\\u2019 Hanyalah Kisah Romantis yang Menyamar\",\"short_description\":\"Pembahasan tokoh Eren Yeager Attack on Titan sedang seru-serunya dan sebuah hipotesis bahwa anime ini hanyalah kisah romansa yang menyamar sudah terbukti.\",\"image\":\"\\/photos\\/3\\/aot.jpg\",\"created_at\":\"2021-04-11 06:58:31\",\"user_id\":3,\"author\":{\"id\":3,\"name\":\"Johnny Joestar Rangga\",\"avatar\":\"\\/photos\\/3\\/216545.jpg\"}},{\"id\":11,\"title\":\"Menghadapi Kelakuan Menyebalkan Netizen di Bioskop\",\"short_description\":\"\\u201cCUMA NGECEK HP NGGAK BOLEH YA? KAMU PANITIA, HAH? KOK NGATUR-NGATUR???\\u201d\",\"image\":\"\\/photos\\/3\\/main-hp.jpg\",\"created_at\":\"2021-04-11 07:02:06\",\"user_id\":3,\"author\":{\"id\":3,\"name\":\"Johnny Joestar Rangga\",\"avatar\":\"\\/photos\\/3\\/216545.jpg\"}}],\"first_page_url\":\"http:\\/\\/192.168.100.8\\/api\\/article?page=1\",\"from\":1,\"last_page\":2,\"last_page_url\":\"http:\\/\\/192.168.100.8\\/api\\/article?page=2\",\"next_page_url\":\"http:\\/\\/192.168.100.8\\/api\\/article?page=2\",\"path\":\"http:\\/\\/192.168.100.8\\/api\\/article\",\"per_page\":10,\"prev_page_url\":null,\"to\":10,\"total\":12}}",
+					"language": "json",
+					"rawDataType": "text",
+					"previewType": "text",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"name": "Contoh API daftar  artikel",
+					"id": "54157881-9810-79c0-4a20-e334ce53e8a4",
+					"request": {
+						"url": "http://192.168.100.8/api/article?page=1",
+						"pathVariables": {},
+						"pathVariableData": [],
+						"queryParams": [
+							{
+								"key": "page",
+								"value": "1",
+								"equals": true,
+								"description": "",
+								"enabled": true
+							}
+						],
+						"headerData": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"enabled": true,
+								"description": ""
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2JldGEubG9jYWxpby5pZC9wdWJsaWMvYXBpL2xvZ2luIiwiaWF0IjoxNjExNjM2NTEwLCJuYmYiOjE2MTE2MzY1MTAsImp0aSI6Ilh0djN2NnBCUk84QldPY24iLCJzdWIiOjg2NTMsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.eZNE3OZ0-amjOnHh57U3ZnKnVbAu116IMcclDFLUjGI",
+								"enabled": true,
+								"description": ""
+							}
+						],
+						"headers": "Content-Type: application/x-www-form-urlencoded\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2JldGEubG9jYWxpby5pZC9wdWJsaWMvYXBpL2xvZ2luIiwiaWF0IjoxNjExNjM2NTEwLCJuYmYiOjE2MTE2MzY1MTAsImp0aSI6Ilh0djN2NnBCUk84QldPY24iLCJzdWIiOjg2NTMsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.eZNE3OZ0-amjOnHh57U3ZnKnVbAu116IMcclDFLUjGI\n",
+						"data": [
+							{
+								"key": "restaurant_id",
+								"value": "3",
+								"description": "",
+								"type": "text",
+								"enabled": true
+							}
+						],
+						"method": "GET",
+						"dataMode": "urlencoded"
+					}
+				}
+			],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "abbfdcb8-b5ce-41d6-8b1b-e1322c85d191",
+			"headers": "",
+			"headerData": [],
+			"url": "http://192.168.100.8/api/video/search/sejarah?&page=1",
+			"queryParams": [
+				{
+					"key": "page",
+					"value": "1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "16a12419-b0a7-23ea-5e67-f1e67103c77b",
+			"data": null,
+			"dataMode": "params",
+			"name": "API untuk mencari video",
+			"description": "http://192.168.100.8/api/video/search/{keyword}?&page=1\n\n- parameter {keyword} diisi oleh kata pencarian\n- parameter page diisi oleh halaman",
+			"descriptionFormat": "html",
+			"time": 1618589295381,
+			"version": 2,
+			"responses": [
+				{
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK",
+						"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+					},
+					"time": 477,
+					"headers": [
+						{
+							"name": "cache-control",
+							"key": "cache-control",
+							"value": "no-cache, private",
+							"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+						},
+						{
+							"name": "connection",
+							"key": "connection",
+							"value": "close",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Fri, 16 Apr 2021 16:06:04 +0000, Fri, 16 Apr 2021 16:06:04 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "host",
+							"key": "host",
+							"value": "192.168.100.8",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "PHP/7.3.0",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						},
+						{
+							"name": "x-ratelimit-limit",
+							"key": "x-ratelimit-limit",
+							"value": "60",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-ratelimit-remaining",
+							"key": "x-ratelimit-remaining",
+							"value": "58",
+							"description": "Custom header"
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "{\"success\":1,\"data\":{\"current_page\":1,\"data\":[{\"id\":2,\"title\":\"Sejarah Perang dan Kanibalisme pada Liberia\",\"description\":\"Vice.com menjelaskan tentang bagaimana perang dan kanibalisme dimulai di Liberia serta seks bebas dan narkoba\",\"youtube_key\":\"ZRuSS0iiFyo\",\"created_at\":\"2021-02-16 14:27:41\",\"user_id\":3,\"author\":{\"id\":3,\"name\":\"Johnny Joestar Rangga\",\"avatar\":\"\\/photos\\/3\\/216545.jpg\"}}],\"first_page_url\":\"http:\\/\\/192.168.100.8\\/api\\/video\\/search\\/sejarah?page=1\",\"from\":1,\"last_page\":1,\"last_page_url\":\"http:\\/\\/192.168.100.8\\/api\\/video\\/search\\/sejarah?page=1\",\"next_page_url\":null,\"path\":\"http:\\/\\/192.168.100.8\\/api\\/video\\/search\\/sejarah\",\"per_page\":10,\"prev_page_url\":null,\"to\":1,\"total\":1}}",
+					"language": "json",
+					"rawDataType": "text",
+					"previewType": "text",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"name": "contoh API pencarian  video",
+					"id": "d3a708a3-02fb-e80f-7802-9733eb73ea9d",
+					"request": {
+						"url": "http://192.168.100.8/api/video/search/sejarah?&page=1",
+						"pathVariables": {},
+						"pathVariableData": [],
+						"queryParams": [
+							{
+								"key": "page",
+								"value": "1",
+								"equals": true,
+								"description": "",
+								"enabled": true
+							}
+						],
+						"headerData": [],
+						"headers": "",
+						"data": null,
+						"method": "GET",
+						"dataMode": "params"
+					}
+				}
+			],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "b3a2bb56-e1c2-6d0d-5bda-f99c17013c41",
+			"headers": "",
+			"headerData": [],
+			"url": "http://192.168.100.8/api/article/search/sejarah?&page=1",
+			"queryParams": [
+				{
+					"key": "page",
+					"value": "1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "16a12419-b0a7-23ea-5e67-f1e67103c77b",
+			"data": null,
+			"dataMode": "params",
+			"name": "API untuk pencarian artikel",
+			"description": "http://192.168.100.8/api/article/search/{keyword}?&page=1\n\n- parameter keyword diisi oleh kata pencarian\n- parameter page diisi oleh halaman",
+			"descriptionFormat": "html",
+			"time": 1618589462834,
+			"version": 2,
+			"responses": [
+				{
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK",
+						"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+					},
+					"time": 492,
+					"headers": [
+						{
+							"name": "cache-control",
+							"key": "cache-control",
+							"value": "no-cache, private",
+							"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+						},
+						{
+							"name": "connection",
+							"key": "connection",
+							"value": "close",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Fri, 16 Apr 2021 16:09:56 +0000, Fri, 16 Apr 2021 16:09:56 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "host",
+							"key": "host",
+							"value": "192.168.100.8",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "PHP/7.3.0",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						},
+						{
+							"name": "x-ratelimit-limit",
+							"key": "x-ratelimit-limit",
+							"value": "60",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-ratelimit-remaining",
+							"key": "x-ratelimit-remaining",
+							"value": "58",
+							"description": "Custom header"
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "{\"success\":1,\"data\":{\"current_page\":1,\"data\":[{\"id\":5,\"title\":\"Sejarah Pendekatan Detente pada Politik dan Perang\",\"short_description\":\"Periode detente (Prancis : 'relaksasi') dalam sejarah Perang Dingin, yang berarti kedua negara adidaya berupaya meredakan ketegangan di antara mereka.\",\"image\":\"\\/photos\\/3\\/detente.jpeg\",\"created_at\":\"2021-02-14 08:59:09\",\"user_id\":3,\"author\":{\"id\":3,\"name\":\"Johnny Joestar Rangga\",\"avatar\":\"\\/photos\\/3\\/216545.jpg\"}}],\"first_page_url\":\"http:\\/\\/192.168.100.8\\/api\\/article\\/search\\/sejarah?page=1\",\"from\":1,\"last_page\":1,\"last_page_url\":\"http:\\/\\/192.168.100.8\\/api\\/article\\/search\\/sejarah?page=1\",\"next_page_url\":null,\"path\":\"http:\\/\\/192.168.100.8\\/api\\/article\\/search\\/sejarah\",\"per_page\":10,\"prev_page_url\":null,\"to\":1,\"total\":1}}",
+					"language": "json",
+					"rawDataType": "text",
+					"previewType": "text",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"name": "contoh API  pencarian artikel",
+					"id": "90b190c8-9c66-2e05-81c3-e227c2e3b4e9",
+					"request": {
+						"url": "http://192.168.100.8/api/article/search/sejarah?&page=1",
+						"pathVariables": {},
+						"pathVariableData": [],
+						"queryParams": [
+							{
+								"key": "page",
+								"value": "1",
+								"equals": true,
+								"description": "",
+								"enabled": true
+							}
+						],
+						"headerData": [],
+						"headers": "",
+						"data": null,
+						"method": "GET",
+						"dataMode": "params"
+					}
+				}
+			],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "d34a177f-f657-bef7-3c60-6d925214b9db",
+			"headers": "",
+			"headerData": [],
+			"url": "http://192.168.100.8/api/article/tags/6?page=1",
+			"queryParams": [
+				{
+					"key": "page",
+					"value": "1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "16a12419-b0a7-23ea-5e67-f1e67103c77b",
+			"data": null,
+			"dataMode": "params",
+			"name": "API filter daftar artikel  berdasarkan topik",
+			"description": "keterangan : \n\n-http://192.168.100.8/api/article/tags/{topic_id}?page=1\n-{topic_id} diisi oleh id dari topic\n-page diisi oleh halaman\n\n-contoh request\n  http://192.168.100.8/api/article/tags/6?page=1",
+			"descriptionFormat": "html",
+			"time": 1618663251254,
+			"version": 2,
+			"responses": [
+				{
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK",
+						"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+					},
+					"time": 529,
+					"headers": [
+						{
+							"name": "cache-control",
+							"key": "cache-control",
+							"value": "no-cache, private",
+							"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+						},
+						{
+							"name": "connection",
+							"key": "connection",
+							"value": "close",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Sat, 17 Apr 2021 12:38:56 +0000, Sat, 17 Apr 2021 12:38:56 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "host",
+							"key": "host",
+							"value": "192.168.100.8",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "PHP/7.3.0",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						},
+						{
+							"name": "x-ratelimit-limit",
+							"key": "x-ratelimit-limit",
+							"value": "60",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-ratelimit-remaining",
+							"key": "x-ratelimit-remaining",
+							"value": "59",
+							"description": "Custom header"
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "{\"success\":true,\"data\":{\"current_page\":1,\"data\":[{\"id\":19,\"article_id\":5,\"topic_id\":6,\"article\":{\"id\":5,\"title\":\"Sejarah Pendekatan Detente pada Politik dan Perang\",\"short_description\":\"Periode detente (Prancis : 'relaksasi') dalam sejarah Perang Dingin, yang berarti kedua negara adidaya berupaya meredakan ketegangan di antara mereka.\",\"image\":\"\\/photos\\/3\\/detente.jpeg\",\"user_id\":3,\"created_at\":\"2021-02-14 08:59:09\",\"author\":{\"id\":3,\"name\":\"Johnny Joestar Rangga\",\"avatar\":\"\\/photos\\/3\\/216545.jpg\"}}},{\"id\":24,\"article_id\":2,\"topic_id\":6,\"article\":{\"id\":2,\"title\":\"Pengadilan Nurenberg,Eksekusi Mati bagi Para Petinggi Nazi\",\"short_description\":\"Para Petinggi Nazi akhirnya diadili di pengadilan Nurenberg atas Kejahatan Perang mereka\",\"image\":\"\\/photos\\/3\\/nurrenberg.jpg\",\"user_id\":3,\"created_at\":\"2021-02-15 16:09:56\",\"author\":{\"id\":3,\"name\":\"Johnny Joestar Rangga\",\"avatar\":\"\\/photos\\/3\\/216545.jpg\"}}},{\"id\":32,\"article_id\":8,\"topic_id\":6,\"article\":{\"id\":8,\"title\":\"Penangkapan dan Baku Tembak di Meksiko\",\"short_description\":\"Detik detik penangkapan dan baku tembak polisi pemerintahan dengan kartel narkoba meksiko\",\"image\":\"\\/photos\\/3\\/kartel.jpg\",\"user_id\":3,\"created_at\":\"2021-02-15 22:02:02\",\"author\":{\"id\":3,\"name\":\"Johnny Joestar Rangga\",\"avatar\":\"\\/photos\\/3\\/216545.jpg\"}}}],\"first_page_url\":\"http:\\/\\/192.168.100.8\\/api\\/article\\/tags\\/6?page=1\",\"from\":1,\"last_page\":1,\"last_page_url\":\"http:\\/\\/192.168.100.8\\/api\\/article\\/tags\\/6?page=1\",\"next_page_url\":null,\"path\":\"http:\\/\\/192.168.100.8\\/api\\/article\\/tags\\/6\",\"per_page\":10,\"prev_page_url\":null,\"to\":3,\"total\":3}}",
+					"language": "json",
+					"rawDataType": "text",
+					"previewType": "text",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"name": "contoh API filter daftar artikel  berdasarkan topik",
+					"id": "7cfccbd1-dfe8-b2ca-2fb0-fad5978d1b68",
+					"request": {
+						"url": "http://192.168.100.8/api/article/tags/6?page=1",
+						"pathVariables": {},
+						"pathVariableData": [],
+						"queryParams": [
+							{
+								"key": "page",
+								"value": "1",
+								"equals": true,
+								"description": "",
+								"enabled": true
+							}
+						],
+						"headerData": [],
+						"headers": "",
+						"data": null,
+						"method": "GET",
+						"dataMode": "params"
+					}
+				}
+			],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "f9c02b5f-f6ba-df72-a906-22db4f5fc252",
+			"headers": "",
+			"headerData": [],
+			"url": "http://192.168.100.8/api/article/2",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "16a12419-b0a7-23ea-5e67-f1e67103c77b",
+			"data": null,
+			"dataMode": "params",
+			"name": "API untuk melihat detail artikel",
+			"description": " http://192.168.100.8/api/article/{id_artikel}\n",
+			"descriptionFormat": "html",
+			"time": 1618588851872,
+			"version": 2,
+			"responses": [
+				{
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK",
+						"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+					},
+					"time": 622,
+					"headers": [
+						{
+							"name": "cache-control",
+							"key": "cache-control",
+							"value": "no-cache, private",
+							"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+						},
+						{
+							"name": "connection",
+							"key": "connection",
+							"value": "close",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Fri, 16 Apr 2021 15:59:24 +0000, Fri, 16 Apr 2021 15:59:24 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "host",
+							"key": "host",
+							"value": "192.168.100.8",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "PHP/7.3.0",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						},
+						{
+							"name": "x-ratelimit-limit",
+							"key": "x-ratelimit-limit",
+							"value": "60",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-ratelimit-remaining",
+							"key": "x-ratelimit-remaining",
+							"value": "59",
+							"description": "Custom header"
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "{\"status\":true,\"data\":{\"id\":2,\"title\":\"Pengadilan Nurenberg,Eksekusi Mati bagi Para Petinggi Nazi\",\"short_description\":\"Para Petinggi Nazi akhirnya diadili di pengadilan Nurenberg atas Kejahatan Perang mereka\",\"content\":\"<p><strong>Bosscha.id &ndash;&nbsp;<\\/strong>Pasca berakhirnya Perang Dunia Kedua, pihak sekutu membentuk pengadilan militer internasional pertama yang bertujuan untuk menghukum pejabat senior politik dan militer dengan dakwaan kejahatan perang dan kejahatan serius lainnya.<\\/p>\\r\\n<p>Empat negara sebagai kekuatan utama sekutu antara lain Perancis, Uni Soviet, Inggris, dan Amerika Serikat membentuk International Military Tribunal (IMT) di Nuremberg (atau dalam ejaan lain disebut N&uuml;rnberg), Jerman untuk menghukum penjahat perang dari &ldquo;<em>European Axis<\\/em>&rdquo;. IMT (selanjutnya dikenal juga dengan Nuremberg Tribunal) melaksanakan persidangan baik terhadap pemimpin politik dan militer Nazi, maupun terhadap Organisasi sayap Nazi dan Afiliasinya.<\\/p>\\r\\n<p>Hari ini tepatnya 74 tahun yang lalu, atau pada 16 Oktober 1946 adalah hari yang kelam bagi para petinggi Nazi, pemerintahan berkuasa di Jerman semasa Adolf Hitler. Mereka dihukum gantung setelah divonis bersalah atas kejahatan perang dan pelanggaran HAM.<\\/p>\\r\\n<p>Pada masa kejayaannya, Nazi tercatat telah melakukan pembantaian &ldquo;Holocaust&rdquo; terhadap 11 juta orang, sebagian besar korban merupakan bangsa Yahudi. Lebih dari satu juta anak Yahudi tewas dalam Holocaust, demikian pula dengan dua juta wanita Yahudi dan tiga juta pria Yahudi.<\\/p>\\r\\n<p>Para petinggi Nazi yang dieksekusi itu termasuk Joachim von Ribbentrop selaku Menteri Luar Negeri Nazi, Hermann Goering &ndash; Pendiri Gestapo dan Kepala Angkatan Udara Jerman, serta Wilhelm Frick selaku Menteri Dalam Negeri.<\\/p>\\r\\n<p>Eksekusi mati terhadap 10 petinggi Nazi ini dilakukan oleh aparat gabungan internasional dari Amerika Serikat, Uni Soviet, Prancis dan Inggris. Mereka digantung satu per satu, kecuali Hermann Goering yang dikenal sebagai &ldquo;pemimpin pembantaian agresif terhadap Yahudi&rdquo; yang memilih untuk bunuh diri di sel penjara dengan menenggak kapsul sianida pada malam sebelum eksekusi.<\\/p>\\r\\n<p>&nbsp;<\\/p>\\r\\n<p><img src=\\\"https:\\/\\/www.history.com\\/.image\\/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200\\/MTU3ODc3NjU2NzU0NzkyMTU5\\/the-executions-at-nuremburg.jpg\\\" alt=\\\"\\\" width=\\\"500\\\" height=\\\"375\\\" \\/><\\/p>\\r\\n<p><em>Foto salah satu petinggi nazi akan diekskusi<\\/em><\\/p>\\r\\n<p>Seperti dilansir&nbsp;<em>History.com,<\\/em>&nbsp;selain petinggi Nazi yang dieksekusi mati, ada sekitar 7 orang lainnya yang dijatuhi hukuman penjara berkisar dari 10 tahun penjara hingga hukuman seumur hidup. Sementara tiga petinggi lainnya dibebaskan karena dinyatakan tak bersalah.<\\/p>\\r\\n<p>Satu lagi pemimpin Nazi, Martin Bormann, melarikan diri saat persidangan. Tapi ia tetap dijatuhi hukuman mati secara&nbsp;<em>in absentia,<\\/em>&nbsp;artinya divonis meski yang bersangkutan tidak hadir di persidangan. Kabarnya, Martin kemudian tewas di Berlin saat perang.<\\/p>\\r\\n<p>Menurut catatan sejarah, Pemimpin Nazi Adolf Hitler pun tewas bunuh diri dengan tembakan pada 30 April 1945 di Fuhrerbunker, Berlin. Istrinya, Eva juga bunuh diri dengan meminum kapsul sianida<\\/p>\\r\\n<p>Sesuai dengan instruksi Hitler sebelumnya, jasad Sang Fuhrer dan istri dibawa menaiki tangga melalui pintu keluar darurat bunker, disiram bensin, dan dibakar di taman Reich Chancellery di luar bunker.<\\/p>\\r\\n<p>Berdasarkan rekaman dari arsip Uni Soviet, sisa-sisa bakaran Hitler dan istri sempat dikuburkan, tapi kemudian kembali digali, dikremasi dan abunya disebar.<\\/p>\\r\\n<p>Dakwaan terkait kejahatan perang yag dilakukan Nazi ini mulai dimasukkan ke tribunal setahun sebelumnya yaitu pada tanggal 18 Oktober 1945 di Berlin (sebagai&nbsp;<em>Permanent Seat of the Tribunal<\\/em>) oleh para prosecutor sebagai penjahat perang. Salinan dakwaan juga dibuat dalam bahasa Jerman yang diserahkan kepada terdakwa 30 (tiga puluh) hari sebelum persidangan dimulai.<\\/p>\\r\\n<p>Persidangan pun dimulai pada tanggal 20 November 1945 dalam 4 (empat) bahasa (Bahasa Inggris, Russia, Perancis, dan Jerman), seluruh terdakwa kecuali Bormann yang&nbsp;<em>in absentia<\\/em>&nbsp;menyatakan tidak bersalah terhadap segala dakwaan prosecutor.<\\/p>\\r\\n<p>33 orang saksi&nbsp;<em>a charge<\\/em>&nbsp;yang secara langsung bersaksi di depan persidangan serta 61 (enam puluh satu) orang saksi&nbsp;<em>a decharge<\\/em>&nbsp;yang ditambah dengan sembilan belas terdakwa yang secara langsung bersaksi di depan persidangan. Selanjutnya sebanyak 143 (seratus empat puluh tiga) saksi memberikan kesaksian yang meringankan terdakwa dalam jawaban tertulis kepada persidangan.<\\/p>\\r\\n<p>Mengenai dakwaan terhadap organisasi sebanyak 38.000&nbsp;<em>affidavit<\\/em>&nbsp;yang ditandatangani oleh 155.000 orang dimasukkan sebagai bukti di depan persidangan. Persidangan sendiri mendengarkan keterangan 22 orang saksi untuk organisasi sampai akhirnya sesi untuk mendengarkan keterangan baik dari saksi ataupun&nbsp;<em>counsel<\\/em>&nbsp;ditutup pada tanggal 31 Agustus 1946.<\\/p>\\r\\n<p>Lalu, pembacaan putusan pun dilaksanakan dalam 2 hari pada tanggal 30 September 1946 dan 1 Oktober 1946, Sebanyak 12 orang dihukum mati dengan cara digantung, 3 orang dihukum penjara seumur hidup, 4 orang dipenjara antara 10 hingga 20 tahun, dan 3 orang dinyatakan bebas dari segala dakwaan.<\\/p>\\r\\n<p><iframe src=\\\"https:\\/\\/www.youtube.com\\/embed\\/vUK_ou_mTQE\\\" width=\\\"560\\\" height=\\\"314\\\" allowfullscreen=\\\"allowfullscreen\\\"><\\/iframe><\\/p>\\r\\n<p>diambil dari Bosscha.id<\\/p>\",\"image\":\"\\/photos\\/3\\/nurrenberg.jpg\",\"user_id\":3,\"created_at\":\"2021-02-15 16:09:56\",\"updated_at\":\"2021-02-15 09:09:56\",\"date\":\"15\\/Feb\\/2021\",\"author\":{\"id\":3,\"name\":\"Johnny Joestar Rangga\",\"avatar\":\"\\/photos\\/3\\/216545.jpg\"},\"tags\":[{\"id\":23,\"article_id\":2,\"topic_id\":2,\"topics\":{\"id\":2,\"name\":\"History\",\"cover\":\"\\/photos\\/3\\/history.jpg\",\"company_id\":0}},{\"id\":24,\"article_id\":2,\"topic_id\":6,\"topics\":{\"id\":6,\"name\":\"Politic\",\"cover\":\"\\/photos\\/3\\/politic.jpg\",\"company_id\":3}}]}}",
+					"language": "json",
+					"rawDataType": "text",
+					"previewType": "text",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"name": "API contoh detail artikel",
+					"id": "524986a7-3a3d-a420-deff-2934e59ccdca",
+					"request": {
+						"url": "http://192.168.100.8/api/article/2",
+						"pathVariables": {},
+						"pathVariableData": [],
+						"queryParams": [],
+						"headerData": [],
+						"headers": "",
+						"data": null,
+						"method": "GET",
+						"dataMode": "params"
+					}
+				}
+			],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
