@@ -23,8 +23,8 @@ Selamat Mempelajari,Semoga Bermanfaat
 
  Screen Shoot Aplikasi :
 
- ![](images/home1.jpeg)   
+ ![](images/home1.jpg)   
 <br/><br/> 
- ![](images/home2.jpeg)   
+ ![](images/home2.jpg)   
 
  
