@@ -28,7 +28,8 @@ class ApiArticleController extends Controller
      }
 
      function RelatedArticle(Request $request){
-        $data=ArticleTags::with("article.author")->whereIn("topic_id",$request->topic_id)
+        $data=ArticleTags::with("article.author")->where("article_tags.article_id",
+        "<>",$request->article_id)->whereIn("topic_id",$request->topic_id)
         ->groupBy("article_tags.article_id")->take(10)->get();
         foreach($data as $row){
           $row->article->date=date('d/M/Y',strtotime($row->article->created_at));  

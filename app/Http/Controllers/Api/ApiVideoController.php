@@ -31,11 +31,12 @@ class ApiVideoController extends Controller
      }
 
      function RelatedVideo(Request $request){
-        $data=VideoTags::with("video.author")->whereIn("topic_id",$request->topic_id)->
+        $data=VideoTags::with("video.author")->whereNot("video_tags.video_id",$request->video_id)
+        ->whereIn("topic_id",$request->topic_id)->
         groupBy("video_tags.video_id")->take(10)->get();
         foreach($data as $row){
             $row->video->date=date('d/M/Y',strtotime($row->video->created_at));  
-        }
+        } 
         return response()->json([
             "success"=>true,
             "data"=>$data
