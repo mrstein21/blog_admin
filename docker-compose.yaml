@@ -17,7 +17,5 @@ services:
       dockerfile: app.dockerfile
     volumes:
       - ./:/var/www
-    networks:
-      - network_node
 
   
