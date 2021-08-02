@@ -36,6 +36,8 @@ RUN curl -sS https://getcomposer.org/installer | \
 
 COPY . /var/www/
 
+RUN composer self-update --1
+
 RUN composer install
 
 # Expose port 9000
