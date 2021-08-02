@@ -4,18 +4,20 @@ services:
     build:
       context: ./
       dockerfile: web.dockerfile
-    volumes:
-      - ./:/var/www
     ports:
       - "8080:80"
-    links:
-      - app
-
+    networks:
+      - laravel-prod  
   app:
     build:
       context: ./
       dockerfile: app.dockerfile
-    volumes:
-      - ./:/var/www
+    networks:
+      - laravel-prod
+
+networks:
+  laravel-prod:
+    driver: bridge      
+  
 
   
