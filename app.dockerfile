@@ -36,9 +36,14 @@ RUN curl -sS https://getcomposer.org/installer | \
 
 COPY . /var/www/
 
+COPY --chown=www-data:www-data . /var/www/
+RUN chown -R www-data:www-data /var/www
+RUN chown -R www-data:www-data /var/log/supervisor
+
 RUN composer self-update --1
 
 RUN composer install
 
 # Expose port 9000
 EXPOSE 9000
+USER www-data
