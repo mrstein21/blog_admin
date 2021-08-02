@@ -2,7 +2,7 @@ FROM php:7.4-fpm
 
 WORKDIR /var/www/
 
-R# Install dependencies
+# Install dependencies
 RUN apt-get update && apt-get install -y \
     build-essential \
     libpng-dev \
