@@ -3,7 +3,7 @@ FROM php:7.2-fpm
 WORKDIR /var/www/
 
 RUN docker-php-ext-install pdo_mysql mbstring  exif pcntl
-RUN docker-php-ext-configure gd --with-jpeg=/usr/include/ --with-freetype=/usr/include/
+RUN docker-php-ext-configure gd 
 RUN docker-php-ext-install gd
 
 
