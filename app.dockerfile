@@ -6,6 +6,9 @@ RUN apt-get update && apt-get install -y libmcrypt-dev mysql-client \
 RUN curl -sS https://getcomposer.org/installer | \
             php -- --install-dir=/usr/bin/ --filename=composer  
 
-WORKDIR /var/www
+COPY . /var/www/
 
 RUN composer install
+
+# Expose port 9000
+EXPOSE 9000
