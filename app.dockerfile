@@ -42,7 +42,12 @@ RUN chown -R www-data:www-data /var/log/supervisor
 
 RUN composer self-update --1
 
-RUN composer install
+RUN composer install \
+    --no-interaction \
+    --no-plugins \
+    --no-scripts \
+    --no-dev \
+    --prefer-dist
 
 # Expose port 9000
 EXPOSE 9000
