@@ -1,35 +1,3 @@
-FROM composer:1.10.7 as vendor
-
-WORKDIR /app
-
-COPY database/ database/
-COPY composer.json composer.json
-COPY composer.lock composer.lock
-
-RUN composer self-update --1
-
-RUN composer install \
-    --no-interaction \
-    --no-plugins \
-    --no-scripts \
-    --no-dev \
-    --prefer-dist
-
-COPY . .
-RUN composer dump-autoload
-
-
-FROM node:14.9 as frontend
-
-WORKDIR /app
-
-COPY artisan package.json webpack.mix.js yarn.lock tailwind.js ./
-
-COPY resources/js ./resources/js
-COPY resources/sass ./resources/sass
-
-
-
 FROM php:7.4-fpm
 
 WORKDIR /var/www/
@@ -62,12 +30,9 @@ RUN docker-php-ext-install pdo_mysql mbstring zip exif pcntl
 RUN docker-php-ext-configure gd --with-jpeg=/usr/include/ --with-freetype=/usr/include/
 RUN docker-php-ext-install gd
 
-COPY --from=frontend /app/node_modules/ ./node_modules/
-COPY --from=frontend /app/public/js/ ./public/js/
-COPY --from=frontend /app/public/css/ ./public/css/
-COPY --from=frontend /app/public/mix-manifest.json ./public/mix-manifest.json
-# Copy Composer dependencies
-COPY --from=vendor /app/vendor/ ./vendor/
+
+RUN curl -sS https://getcomposer.org/installer | \
+            php -- --install-dir=/usr/bin/ --filename=composer  
 
 COPY . /var/www/
 
@@ -75,6 +40,14 @@ COPY --chown=www-data:www-data . /var/www/
 RUN chown -R www-data:www-data /var/www
 RUN chown -R www-data:www-data /var/log/supervisor
 
+RUN composer self-update --1
+
+RUN composer install \
+    --no-interaction \
+    --no-plugins \
+    --no-scripts \
+    --no-dev \
+    --prefer-dist
 
 # Expose port 9000
 EXPOSE 9000
