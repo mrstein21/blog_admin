@@ -25,8 +25,6 @@ WORKDIR /app
 
 COPY artisan package.json webpack.mix.js yarn.lock tailwind.js ./
 
-RUN npm install
-
 COPY resources/js ./resources/js
 COPY resources/sass ./resources/sass
 
